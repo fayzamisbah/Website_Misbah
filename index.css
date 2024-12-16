@@ -1,0 +1,196 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #1fadff;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+nav {
+    background: #367dff55;
+    padding: 10px 0;
+}
+
+nav .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a {
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #000000de;
+}
+
+nav .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu ul li {
+    margin-left: 20px;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: #000000df;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav .menu ul li a:hover {
+    color: #010d12eb;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#home img {
+    max-width: 50%;
+    border-radius: 10px;
+}
+
+#home .kolom {
+    max-width: 45%;
+}
+
+#home .kolom h2 {
+    color: #4aa2f9;
+    font-size: 2.5em;
+}
+
+#home .kolom .tbl-pink {
+    display: inline-block;
+    background: #3577ea;
+    color: #3a5ae8;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#home .kolom .tbl-pink:hover {
+    background: #35a8fa;
+    color: #fff;
+}
+
+/* Section Titles */
+section h2 {
+    color: #fcfdff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section .deskripsi {
+    color: #000000;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+#about {
+    margin: 50px 0;
+    text-align: center;
+}
+
+#about .kolom {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about .tbl-biru {
+    display: inline-block;
+    background: #4e9bf4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#about .tbl-biru:hover {
+    background: #3667e5;
+    color: #5cabf5;
+}
+
+/* Products Section */
+#products {
+    margin: 50px 0;
+}
+
+.Menu-Andalan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Kartu-Menu {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Kartu-Menu img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Kartu-Menu p {
+    font-size: 1.2em;
+    color: #000000cf;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background: #496def;
+    padding: 50px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #01060d;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1b8dd4;
+    color: #fff;
+    font-size: 0.9em;
+}
